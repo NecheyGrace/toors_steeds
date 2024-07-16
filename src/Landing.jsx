@@ -2,13 +2,13 @@ import Button from "./Components/Button";
 
 function Landing() {
   return (
-    <div className="max-w-full m-16 bg-[#FFFFFF] ">
-      <div className="flex justify-between items-center font-montserrat h-72 bg-black">
+    <div className="max-w-full m-16">
+      <div className="flex justify-between bg-[#FFFFFF] font-montserrat ">
         <div className=" mb-8 flex flex-col justify-center items-center">
           <img
             src="src\assets\Logo.png"
             alt="Logo"
-            className="w-36 h-40 object-cover"
+            className="w-36 h-40 object-contain"
           />
           <span className="text-[''#000000] shadow-sm font-light leading-9 tracking-tight">
             TOOR & STEDS
