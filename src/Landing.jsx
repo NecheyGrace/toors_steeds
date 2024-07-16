@@ -43,7 +43,7 @@ function Landing() {
         </div>
         <div className="w-[50%] flex justify-center items-center">
           <img
-            src="src\assets\image 4.png"
+            src="src\assets\boy.png"
             alt="A boy"
             className="w-[80%] h-full ml-36 object-contain"
           />
