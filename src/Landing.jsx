@@ -2,25 +2,25 @@ import Button from "./Components/Button";
 
 function Landing() {
   return (
-    <div className="max-w-full m-8">
-      <div className="flex justify-between bg-[#FFFFFF] font-montserrat mt-10">
-        <div className="ml-8 pt-3">
+    <div className="max-w-full m-16 bg-[#FFFFFF] ">
+      <div className="flex justify-between items-center font-montserrat h-72 bg-black">
+        <div className=" mb-8 flex flex-col justify-center items-center">
           <img
             src="src\assets\Logo.png"
             alt="Logo"
-            className="w-36 h-40 object-contain"
+            className="w-36 h-40 object-cover"
           />
           <span className="text-[''#000000] shadow-sm font-light leading-9 tracking-tight">
             TOOR & STEDS
           </span>
         </div>
         <div className="flex  justify-center ">
-          <div className="ml-16 ">
+          <div className=" ">
             <p className="text-['#000000'] opacity-70 text-base pt-3">
               Choose your category?
             </p>
           </div>
-          <div className="mx-6 px-6 ">
+          <div className=" ">
             <Button text="Register" bgColor={"#004AAC"} textColor={"#D8E6F9"} />
             <Button text="Login" bgColor={"#C0CEE1"} textColor={"#373737"} />
           </div>
